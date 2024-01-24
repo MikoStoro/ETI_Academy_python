@@ -32,7 +32,7 @@ print(string.find('ac'))
 
 print("\n\nFORMAT")
 C = 36.6725
-string="Temperature in celsius: {:2f}, will we {:2f} in Fahrenheit".format(C, (C*9/5)+32)
+string="Temperature in celsius: {:f}, will we {:f} in Fahrenheit".format(C, (C*9/5)+32)
 print(string)
 
 print("\n\n\n")

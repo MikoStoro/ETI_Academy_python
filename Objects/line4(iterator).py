@@ -83,8 +83,8 @@ print(f2(2))
 f3 = f1 * 2
 print(f3(2))
 
-for val in Series(f1, step=0.25):
-    #print(val)
+for val in Series(f1, step=25):
+    print(val)
     pass
     
 for val in f1.getSeries(step = 0.33):
