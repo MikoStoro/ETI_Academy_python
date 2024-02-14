@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt 
 import numpy as np
 
+
+##SINUS
 sinus_f = open('sinus_data.csv','r')
 sinus = sinus_f.read().split('\n')
 sinus_f.close()
@@ -8,7 +10,7 @@ x = [float(x) for x in sinus[0].split(';') ]
 y = [float(x) for x in sinus[1].split(';') ] 
 
 plt.plot(x,y)
-#plt.axis([0,6,-0.5,0.5])
+#plt.axis([0,6,-0.5,0.5])   
 plt.show()
 
 rnd_f = open('abc_data.csv', 'r')
